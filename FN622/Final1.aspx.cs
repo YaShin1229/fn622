@@ -36,6 +36,9 @@ namespace FN622
         {
             lb_Msg.Text = DropDownList1.SelectedValue + "<br/>";
             lb_Msg.Text += DropDownList2.SelectedValue + "<br/>";
+            lb_Msg.Text += DropDownList3.SelectedValue + "<br/>";
+            lb_Msg.Text += DropDownList4.SelectedValue + "<br/>";
+            lb_Msg.Text += DropDownList5.SelectedValue + "<br/>";
             if (RadioButton1.Checked == true)
             {
 
