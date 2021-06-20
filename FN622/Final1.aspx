@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <h2>麵包點餐系統</h2>
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged ="DropDownList1_SelectedIndexChanged">
+            <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem>波蘿麵包</asp:ListItem>
                 <asp:ListItem>波蘿奶酥麵包</asp:ListItem>
                 <asp:ListItem>白吐司</asp:ListItem>
