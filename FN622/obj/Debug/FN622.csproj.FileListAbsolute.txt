@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\FN622\FN622\obj\Debug\FN622.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FN622\FN622\obj\Debug\FN622.csproj.CoreCompileInputs.cache

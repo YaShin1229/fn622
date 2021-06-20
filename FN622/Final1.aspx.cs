@@ -13,5 +13,37 @@ namespace FN622
         {
 
         }
+
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RadioButton1.Checked == true)
+            {
+                TextBox1.Visible = false;
+            }
+
+        }
+
+        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RadioButton2.Checked == true)
+            {
+                TextBox1.Visible = true;
+            }
+        }
+
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            lb_Msg.Text = DropDownList1.SelectedValue + "<br/>";
+            lb_Msg.Text += DropDownList2.SelectedValue + "<br/>";
+            if (RadioButton1.Checked == true)
+            {
+
+            }
+            else if (RadioButton2.Checked == true)
+            {
+                lb_Msg.Text += TextBox1.Text;
+            }
+        }
     }
 }
