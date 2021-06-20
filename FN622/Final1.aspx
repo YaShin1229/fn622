@@ -56,6 +56,8 @@
                 <asp:ListItem>奶油包 40$</asp:ListItem>
                 <asp:ListItem>.</asp:ListItem>
             </asp:DropDownList><br />
+            <h4>總計</h4>
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <h3>是否滿意本服務</h3>
             <asp:RadioButton ID="RadioButton1" runat="server" Text="是" Checked="True" GroupName="rar" AutoPostBack="True" OnCheckedChanged="RadioButton1_CheckedChanged" /><br />
             <asp:RadioButton ID="RadioButton2" runat="server" Text="否，請說明" GroupName="rar" AutoPostBack="True" OnCheckedChanged ="RadioButton2_CheckedChanged" /><br />
